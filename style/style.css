@@ -110,7 +110,12 @@ a {
     transition-duration: 0.4s;
   }
 
-  .pricing-button{
+  .back-button:hover {
+    background-color: rgb(240, 240, 240);
+    color: rgb(10, 10, 10);
+  }
+
+  .pricing{
     border: 2px solid rgb(240, 240, 240);
     border-radius: 16px;
     background-color: rgb(10, 10, 10);
@@ -121,11 +126,12 @@ a {
     display: inline-block;
     font-size: 22px;
 }
-.pricing-button {
+.pricing {
     transition-duration: 0.4s;
   }
-  
-  .back-button:hover {
+
+  .pricing:hover {
     background-color: rgb(240, 240, 240);
     color: rgb(10, 10, 10);
   }
+  
