@@ -121,9 +121,7 @@ a {
   }
 
   .pricing-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
+   text-align: right;
   }
 
 
