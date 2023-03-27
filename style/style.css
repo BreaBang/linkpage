@@ -42,6 +42,7 @@ header {
     width: 100%;
     background-color: rgb(37, 37, 37);
     margin: 7px;
+    margin-bottom: 10px;
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
@@ -115,8 +116,14 @@ a {
     color: rgb(10, 10, 10);
   }
 
-  .get-yours {
+  .get-yours{
     margin-top: 20px;
+  }
+
+  .pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
   }
 
 
