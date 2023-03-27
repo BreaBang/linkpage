@@ -115,23 +115,4 @@ a {
     color: rgb(10, 10, 10);
   }
 
-  .pricing{
-    border: 2px solid rgb(240, 240, 240);
-    border-radius: 16px;
-    background-color: rgb(10, 10, 10);
-    color: rgb(240, 240, 240);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 22px;
-}
-.pricing {
-    transition-duration: 0.4s;
-  }
 
-  .pricing:hover {
-    background-color: rgb(240, 240, 240);
-    color: rgb(10, 10, 10);
-  }
-  
