@@ -64,6 +64,10 @@ header {
     width: 80%;
 }
 
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41);
+    transform: scale(1.02);
+}
 
 h1{
     font-size: 20px;
