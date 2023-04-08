@@ -1,6 +1,7 @@
 body {
     background-color: var(--primary-page-bg);
     color: var(--primary-text-color);
+    
 
     /* variables */
     /* global */
@@ -170,9 +171,7 @@ input:checked::after {
 }
 
 body.light{
-    --primary-page-bg: #19D2F3;
+    --primary-page-bg: #f4e1f3;
     --primary-text-color: rgb(0,0,0);
-    --tile-bg: #c7c5c5;
-    --tile-text-color: pink;
 }
 
