@@ -16,3 +16,10 @@ async function copyText(e){
 }
 
 shareButtons.forEach(shareButton => shareButton.addEventListener('click', copyText))
+
+const toggleThemeBtn = document.getElementById('toggleThemeBtn')
+
+toggleThemeBtn.addEventListener('click', ()=> {
+    document.body.classList.toggle('light');
+    
+})
