@@ -170,7 +170,8 @@ input:checked::after {
 }
 
 body.light{
-    --primary-text-color: pink;
+    --primary-page-bg: #19D2F3;
+    --primary-text-color: rgb(0,0,0);
     --tile-bg: #c7c5c5;
     --tile-text-color: pink;
 }
